@@ -1,0 +1,17 @@
+{
+  "id": "model-accordion",
+  "name": "Model Accordion",
+  "version": "0.2.3",
+  "type": "general",
+  "description": "Provider accordion, pinned favorites, sort and expand/collapse toolbar for the chat model selector, plus a local OpenAI-compatible gateway importer (WorkBuddy/Trae/...). DOM-decoration only — model selection stays with the host.",
+  "description_i18n": {
+    "zh-CN": "模型选择器增强：单开手风琴、收藏置顶、排序与全收全展工具栏、状态记忆，并可一键发现本机 WorkBuddy/Trae 等本地 OpenAI 兼容网关导入成 provider。只装饰 DOM，模型选择仍由宿主负责。",
+    "en-US": "Provider accordion, pinned favorites, sort and expand/collapse toolbar for the chat model selector, plus a local OpenAI-compatible gateway importer (WorkBuddy/Trae/...). DOM-decoration only — model selection stays with the host."
+  },
+  "author": "QwenPaw Community",
+  "entry": {
+    "frontend": "lib/client.js",
+    "backend": "lib/plugin.py"
+  },
+  "dependencies": []
+}
